@@ -40,13 +40,10 @@ class App extends Component {
     return (
       <div className="App">
         <p>{this.state.response}</p>
-        <form onSubmit={this.handleSubmit}>
           <p>
             <strong>Post to Server:</strong>
           </p>
           <Form />
-          <button type="submit">Submit</button>
-        </form>
         <p>{this.state.responseToPost}</p>
       </div>
     );
